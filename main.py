@@ -1,4 +1,5 @@
-
+import problema1
+from alumnos import alumnos
 
 '''
 Hasta ahora hemos
@@ -52,3 +53,16 @@ if __name__ == '__main__':
 
     print()
     print(lista1)
+    lista1[0] = 1
+    print()
+    print(lista1)
+
+    print(lista1[3])
+
+    print()
+
+    problema1.sumar_5_enteros()
+
+    print()
+
+    alumnos()
